@@ -4,7 +4,7 @@
  * @build: input build 
  * Return: true if found, false if not 
  */ 
-_Bool findBuiltIns(config *build) 
+int findBuiltIns(config *build) 
 { 
  register int i = 0; 
  type_b getBuiltIns[] = { 
